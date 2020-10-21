@@ -4,7 +4,7 @@
 int front = -1, rear = -1;
 
 int delq(int* queue) {
-	if (rear == -1) return printf("QUEUE is NULL!");
+	if (front == rear) return printf("QUEUE is NULL!");
 	else queue[++front] = NULL;
 }
 
