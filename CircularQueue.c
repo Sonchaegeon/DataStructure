@@ -4,7 +4,7 @@
 int front = -1, rear = -1;
 
 int delq(int* queue) {
-	if (front == rear) return printf("Stack is NULL");
+	if (front == rear) return printf("QUEUE is NULL");
 	front++;
 	front = front % MAX;
 	return queue[front] = -1;
