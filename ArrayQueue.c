@@ -13,7 +13,7 @@ int addq(int* queue, int value) {
 	else queue[++rear] = value;
 }
 
-int main() {
+int main() { //
 	int arr[MAX];
 	for (int i = 0; i < MAX; i++) addq(arr, i);
 	for (int i = 0; i < 5; i++) delq(arr);
